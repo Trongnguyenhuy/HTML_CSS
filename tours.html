@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tours</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Meta SEO -->
+        <meta name="description" content="Yellowstone National Park travel agency">
+        <meta name="robots" content="noindex">
+        <meta name="geo.region" content="US-MT" />
+        <meta name="geo.position" content="45.964546;-108.276076" />
+        <meta name="ICBM" content="45.964546, -108.276076" />
+        <!-- Link -->
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <style>
+            #content {
+                margin-top: 50px;
+            }
+            body {
+                background-color: snow;
+                font-family: 'Be Vietnam Pro', sans-serif;
+            }
+            .arrow {
+                border: solid white;
+                border-width: 0 3px 3px 0;
+                display: inline-block;
+                padding: 3px;
+                }
+
+            .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            }
+            a:hover {
+                text-decoration: none;
+            }
+
+            main {
+                margin-top: 100px;
+            }
+
+            @media only screen and (max-width:768px){
+                main {
+                    margin-top: 400px;
+                }
+                #frm {
+                    margin-left: 40px;
+                 }
+
+                 iframe {
+                    display: none;
+                 }
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top" style="text-transform: uppercase;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 navbar-header">
+                        <a class="navbar-brand" href="index.html" style="font-size:150%"><strong>Rocky Mountain travel<i class="fas fa-umbrella-beach w3-text-blue"></i></strong></a>
+                    </div>
+                    <div class="container-fluid" id="frm">
+                    <form class="col-md-6 navbar-form" action="/action_page.php" style="width: 50%;">
+                        <div class="input-group  navbar-right">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html"><i class="glyphicon glyphicon-home"></i></a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="destination.html"><i class="fas fa-plane-departure" style="margin-right:5px;"></i>Tours<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="destination.html">Yellowstone National Park Tours</a></li>
+                            <li><a href="destination.html">Canyon Area</a></li>
+                            <li><a href="destination.html">Fishing Bridge / West Thumb Area</a></li>
+                            <li><a href="destination.html">Madison to Norris</a></li>
+                            <li><a href="destination.html">Mammoth Area</a></li>
+                            <li><a href="destination.html">Tower Roosevelt</a></li>
+                            <li><a href="destination.html">West Entrance to Old Faithful</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="tours.html"><i class="fas fa-hiking" style="margin-right:5px;"></i>Activities<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="tours.html">Hiking</a></li>
+                            <li><a href="tours.html">Skiing</a></li>
+                            <li><a href="tours.html">Climbing</a></li>
+                            <li><a href="tours.html">Dining</a></li>
+                            <li><a href="tours.html">Flyfishing</a></li>
+                            <li><a href="tours.html">Snowmobiling</a></li>
+                            <li><a href="tours.html">Camping</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="destination.html"><i class="fas fa-map-marked" style="margin-right:5px;"></i>Destinations<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="destination.html">Yellowstone National Park</a></li>
+                            <li><a href="destination.html">Great Sand Dunes National Park</a></li>
+                            <li><a href="destination.html">Waterton Lakes National Park</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" style="margin-right: 80px;">
+                    <li><a href="signup.html" target="_blank">Sign Up</a></li>
+                    <li><a href="signin.html" target="_blank">Sign in</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main class="w3-row">
+            <div class="w3-col l9 w3-container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb" style="background-color: snow;margin-top: 10px;">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active"><a href="Tours.html">Tours</a></li>
+                    </ol>
+                </nav>
+                <h1 style="border-bottom: 2px double black; width: 20%;">Tours</h1>
+                <div class="w3-container w3-padding-32">
+                    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Yellowstone National Park Tours</h2>
+                </div>
+                <div class="w3-row-padding">
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Gardiner Tours</div>
+                        <a href="index.html">
+                            <img src="images/Images1.jpg" alt="Image 1" style="width:100%;height:225px;">
+                        </a>
+                        </div>
+                    </div>
+
+                        <div class="w3-col l6 m12 w3-margin-bottom">
+                            <div class="w3-display-container">
+                            <div class="w3-display-topleft w3-black w3-padding">West Yellowstone Tours</div>
+                            <a href="index.html">
+                                <img src="images/Images2.jpg" alt="Image 2" style="width:100%;height:225px;">
+                            </a>
+                            </div>
+                        </div>
+                </div>
+                <div class="w3-container w3-padding-32">
+                    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Canyon Area</h2>
+                </div>
+                <div class="w3-row-padding">
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Point Sublime</div>
+                        <img src="images/Images3.jpg" alt="Image 3" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+                        
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Artist Point</div>
+                        <img src="images/Images4.jpg" alt="Image 4" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Red Rock Point</div>
+                        <img src="images/Images1 (9).jpg" alt="Image 9" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-container w3-padding-32">
+                    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Madison to Norris</h2>
+                </div>
+                <div class="w3-row-padding">
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Back Basin</div>
+                        <img src="images/Images5.jpg" alt="Image 5" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Porcelain Basin</div>
+                        <img src="images/Images6.jpg" alt="Image 6" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Steamboat Geyser</div>
+                        <img src="images/Images1 (8).jpg" alt="Image 8" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+    
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Echinus Geyser</div>
+                        <img src="images/Images1 (7).jpg" alt="Image 7" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-container w3-padding-32">
+                    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Fishing Bridge / West Thumb Area</h2>
+                </div>
+                <div class="w3-row-padding">
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Fishing Bridge</div>
+                        <img src="images/Images5.jpg" alt="Image 5" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">West Thumb Area</div>
+                        <img src="images/Images1 (9).jpg" alt="Image 9" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-container w3-padding-32">
+                    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Mammoth Area</h2>
+                </div>
+                <div class="w3-row-padding" style="text-transform: lowercase;">
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">OPAL TERRACE</div>
+                        <img src="images/Images3.jpg" alt="Image 3" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+                        
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">MINERVA SPRING</div>
+                        <img src="images/Images4.jpg" alt="Image 4" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">ORANGE SPRING</div>
+                        <img src="images/Images1 (9).jpg" alt="Image 9" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-container w3-padding-32">
+                    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Tower Roosevelt</h2>
+                </div>
+                <div class="w3-row-padding">
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Specimen Ridge</div>
+                        <img src="images/Images5.jpg" alt="Image 5" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Petrified Tree</div>
+                        <img src="images/Images6.jpg" alt="Image 6" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Tower Fall</div>
+                        <img src="images/Images1 (8).jpg" alt="Image 8" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+    
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Calcite Springs</div>
+                        <img src="images/Images1 (7).jpg" alt="Image 7" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-container w3-padding-32">
+                    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">West Entrance to Old Faithful</h2>
+                </div>
+                <div class="w3-row-padding">
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Lower Geyser Basin</div>
+                        <img src="images/Images3.jpg" alt="Image 3" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+                        
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Midway Geyser Basin</div>
+                        <img src="images/Images4.jpg" alt="Image 4" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+
+                    <div class="w3-col l6 m12 w3-margin-bottom">
+                        <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-black w3-padding">Biscuit Basin</div>
+                        <img src="images/Images1 (9).jpg" alt="Image 9" style="width:100%;height:225px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside class="w3-col l3">
+                <iframe width="90%" height="240" 
+                src="https://www.youtube.com/embed/RCYSEDqPv4o" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture" allowfullscreen style="margin-left: 15px; margin-top: 25px;">
+                </iframe>
+                <div class="w3-bar-block w3-margin w3-round w3-pale-yellow">
+                    <a href="#" class="w3-bar-item w3-button w3-light-blue">Tours</a>
+                    <a href="#" class="w3-bar-item w3-button">Yellowstone National Park Tours</a>
+                    <a href="#" class="w3-bar-item w3-button">Canyon Area</a>
+                    <a href="#" class="w3-bar-item w3-button">Fishing Bridge / West Thumb Area</a>
+                    <a href="#" class="w3-bar-item w3-button">Madison to Norris</a>
+                    <a href="#" class="w3-bar-item w3-button">Mammoth Area</a>
+                    <a href="#" class="w3-bar-item w3-button">Tower Roosevelt</a>
+                </div>
+                <div class="w3-bar-block w3-margin w3-round w3-pale-green">
+                    <a href="#" class="w3-bar-item w3-button w3-light-blue">Activities</a>
+                    <a href="#" class="w3-bar-item w3-button">Hiking</a>
+                    <a href="#" class="w3-bar-item w3-button">Skiing</a>
+                    <a href="#" class="w3-bar-item w3-button">Climbing</a>
+                    <a href="#" class="w3-bar-item w3-button">Dining</a>
+                    <a href="#" class="w3-bar-item w3-button">Flyfishing</a>
+                    <a href="#" class="w3-bar-item w3-button">Snowmobiling</a>
+                    <a href="#" class="w3-bar-item w3-button">Camping</a>
+                </div>
+                <div class="w3-bar-block w3-margin w3-round w3-pale-red">
+                    <a href="#" class="w3-bar-item w3-button w3-light-blue">Destinations</a>
+                    <a href="#" class="w3-bar-item w3-button">Yellowstone National Park</a>
+                    <a href="#" class="w3-bar-item w3-button">Great Sand Dunes National Park</a>
+                    <a href="#" class="w3-bar-item w3-button">Waterton Lakes National Park</a>
+                </div>
+                <div class="container-fluid if" style="width=100%; margin: auto;">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=330&height=550&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+            </aside>
+        </main>
+        <footer class="w3-black w3-panel w3-padding-16">
+            <p style="text-align: center;">Powered by: <a href="http://www.yellowstonenationalpark.com/" title="W3.CSS" target="_blank" class="w3-hover-text-green">Yellowstone National Park</a></p>
+        </footer>
+    </body>
+</html>

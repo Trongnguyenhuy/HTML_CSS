@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Destinations</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Meta SEO -->
+        <meta name="description" content="Yellowstone National Park travel agency">
+        <meta name="robots" content="noindex">
+        <meta name="geo.region" content="US-MT" />
+        <meta name="geo.position" content="45.964546;-108.276076" />
+        <meta name="ICBM" content="45.964546, -108.276076" />
+        <!-- Link -->
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <style>
+            #content {
+                margin-top: 50px;
+            }
+            body {
+                background-color: snow;
+                font-family: 'Be Vietnam Pro', sans-serif;
+            }
+            .arrow {
+                border: solid white;
+                border-width: 0 3px 3px 0;
+                display: inline-block;
+                padding: 3px;
+                }
+
+            .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            }
+            a:hover {
+                text-decoration: none;
+            }
+
+            p {
+                text-indent: 2em;
+                text-align:  justify;
+            }
+
+            @media only screen and (max-width:768px){
+                main {
+                    margin-top: 100px;
+                }
+                #frm {
+                    margin-left: 40px;
+                 }
+
+                 iframe {
+                    display: none;
+                 }
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top" style="text-transform: uppercase;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 navbar-header">
+                        <a class="navbar-brand" href="index.html" style="font-size:150%"><strong>Rocky Mountain travel<i class="fas fa-umbrella-beach w3-text-blue"></i></strong></a>
+                    </div>
+                    <div class="container-fluid" id="frm">
+                    <form class="col-md-6 navbar-form" action="/action_page.php" style="width: 50%;">
+                        <div class="input-group  navbar-right">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html"><i class="glyphicon glyphicon-home"></i></a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="destination.html"><i class="fas fa-plane-departure" style="margin-right:5px;"></i>Tours<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="destination.html">Yellowstone National Park Tours</a></li>
+                            <li><a href="destination.html">Canyon Area</a></li>
+                            <li><a href="destination.html">Fishing Bridge / West Thumb Area</a></li>
+                            <li><a href="destination.html">Madison to Norris</a></li>
+                            <li><a href="destination.html">Mammoth Area</a></li>
+                            <li><a href="destination.html">Tower Roosevelt</a></li>
+                            <li><a href="destination.html">West Entrance to Old Faithful</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="tours.html"><i class="fas fa-hiking" style="margin-right:5px;"></i>Activities<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="tours.html">Hiking</a></li>
+                            <li><a href="tours.html">Skiing</a></li>
+                            <li><a href="tours.html">Climbing</a></li>
+                            <li><a href="tours.html">Dining</a></li>
+                            <li><a href="tours.html">Flyfishing</a></li>
+                            <li><a href="tours.html">Snowmobiling</a></li>
+                            <li><a href="tours.html">Camping</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="destination.html"><i class="fas fa-map-marked" style="margin-right:5px;"></i>Destinations<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="destination.html">Yellowstone National Park</a></li>
+                            <li><a href="destination.html">Great Sand Dunes National Park</a></li>
+                            <li><a href="destination.html">Waterton Lakes National Park</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" style="margin-right: 80px;">
+                    <li><a href="signup.html" target="_blank">Sign Up</a></li>
+                    <li><a href="signin.html" target="_blank">Sign in</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main class="w3-row" style="margin-top: 100px;">
+            <div class="w3-col l9 w3-container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb" style="background-color: snow;margin-top: 10px;">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active"><a href="destination.html">Destinations</a></li>
+                        <li class="breadcrumb-item active"><a href="destination.html">Yellowstone National Park Tours</a></li>
+                    </ol>
+                </nav>
+                <div class="container-fluid w3-padding-16">
+                    <h1 class="w3-border-bottom w3-border-light-grey">Yellowstone National Park Tours</h1><br>
+                    <h2>WEST ENTRANCE TO MADISON JUNCTION</h2>
+                    <p>The West Entrance to Yellowstone National Park begins out of the southeast corner of the accomodating town of West Yellowstone, Montana. The west entrance was established in 1905, 5 miles east of the present day west gate. If you like to flyfish, there is a road approximately 1/5 mile from the entrance, that leads to the Madison River and the Barnes Pools made famous by Charlie Brooks.</p><br>
+                    <figure class="container-fluid" style="text-align: center;width=750px; height=550px">
+                        <img src="Images/Madison/Madison1.jpg" alt="Madison entrance" width="100%" height="auto"><br>
+                        <figcaption>
+                            <i>Picture 1: Madison entrance</i>
+                        </figcaption>
+                    </figure><br>
+                    <p>As you continue on the main road, it closely follows the Madison River and allows you to view the Madison Plateau to the south and the rim of the Yellowstone Caldera to the north. Geological landmarks include Mount Haynes, named after F. Jay Haynes the noted Park photographer, Mount Jackson named after William Henry Jackson, the official photographer of the Hayden Expedition, and National Park Mountain receiving its name because it overlooks the site where the idea on Yellowstone National Park was conceived.</p><br>
+                    <figure class="container-fluid" style="text-align: center;width=750px; height=550px">
+                        <img src="Images/Madison/Madison2.jpg" alt="main road" width="100%" height="auto"><br>
+                        <figcaption>
+                            <i>Picture 2: main road</i>
+                        </figcaption>
+                    </figure><br>
+                    <p>In & near the Madison River you may see waterfowl, including: Ducks (Golden Eye, Merganser, Mallard, Coots, and others,) Geese (Greater & Lessor Canada, Snow, and others,) & Trumpeter Swans, being the most common. Maternity herds and bachelor groups of Bison feed all winter in the meadows adjacent to the river, as do both cow and bull Elk. Wolves and Coyotes frequent this area too, along with animal tracks, elk and bison beds. Restrooms are located at Seven Mile Bridge and at the Warming Hut at Madison Junction. The warming hut is an excellent stop for winter visitors especially if you intend to do the Grand Loop tour.</p><br>
+                    <h2>MADISON JUNCTION TO OLD FAITHFUL</h2>
+                    <p>The road gently climbs out of the Madison River Valley to the three most visited geyser basins in the park (Lower, Midway, Upper.) The road follows the Firehole River, past Firehole Falls in the Firehole Canyon , through a gently broken valley to Old Faithful. Restrooms are located at Fountain Paint Pots, Bisquit Basin, and Old Faithful. Located less than a mile from Madison Junction is Firehole Canyon Drive. This road follows the stream bank of the Firehole River in its narrow canyon and abruptly climbs to the top of Firehole Falls, one of many roadside waterfalls in Yellowstone. Above the falls Firehole canyon widens rapidly into the Firehole valley and wildlife viewing opportunities abound. Ducks, Geese, Dippers, Swans, Elk, Bison, Wolves, Coyotes, Woodpeckers, Eagles, Deer, Hares, Porcupines, Ravens, Mice, Martens, and other animals may be seen along this stretch of road all winter.</p><br>
+                    <figure class="container-fluid" style="text-align: center;width=750px; height=550px">
+                        <img src="Images/Madison/Madison6.jpg" alt="basins" width="100%" height="auto"><br>
+                        <figcaption>
+                            <i>Picture 3: Basins</i>
+                        </figcaption>
+                    </figure><br>
+                    <h3>Lower Geyser Basin</h3>
+                    <p>About half way to Old faithful and one of the most popular attractions in this basin are located at Fountain Paint Pots. With just a short walk it is possible to see all four types of the parks thermal features (Hot Springs, Fumaroles, Mud Pots, Geysers.) Silex Spring is a classic hot spring with attendant features of color, temperature, biota, and spectacle. Be sure to look closely at the bacterial and algae mats for flies that subsist only on this food, and the spiders that subsist only on the flies. These life forms are the food source for mites, mice, insects, and birds. Fountain Paint Pot is usually best viewed in winter when the water table, and local snow melt combine to produce perfect conditions for the display of the world famous 'bubbling mud.' Red Spouter is a recent feature that developed in 1959 after the Hebgen Earthquake. In the summer it is just an ordinary fumarole, but in the winter it spouts red water and red mud. Clepsydra Geyser is a spectacular sight and the boardwalk allows visitors to get an up-close-and-personal view of this feature. Lucky visitors will have the chance to see Fountain Geyser, a spectacular display of several related geysers erupting in a wild symphony of sights, sounds and spray. Don't let the silica-rich waters get on your camera lenses!</p><br>
+                    <figure class="container-fluid" style="text-align: center;width=750px; height=550px">
+                        <img src="Images/Madison/Madison4.jpg" alt="Lower Geyser" width="100%" height="auto"><br>
+                        <figcaption>
+                            <i>Picture 4: Lower Geyser</i>
+                        </figcaption>
+                    </figure><br>
+                    <h3>Midway Geyser Basin</h3>
+                    <p>About 2 miles south of Fountain Paint Pot. Excelsior Geyser and Grand Prismatic Hot spring (the largest hot spring in the park,) are the main attractions in this basin. Upper Geyser Basin is a collection of three conjoined sub-basins surrounding the Old Faithful area (Biscuit Basin, Black Sand Basin, Old Faithful Basin.) This part of Yellowstone contains the largest concentration of geysers in the world. The geysers have been combined by proximity, geologic, and topographic criteria into groups. All the groups are accessible in the winter.</p><br>
+                    <figure class="container-fluid" style="text-align: center;width=750px; height=550px">
+                        <img src="Images/Madison/Madison5.jpg" alt="Midway Geyser" width="100%" height="auto"><br>
+                        <figcaption>
+                            <i>Picture 5: Lower Geyser</i>
+                        </figcaption>
+                    </figure><br>
+                    <h3>Biscuit Basin</h3>
+                    <p>Is formed by the confluence of the Firehole River and Iron Spring Creek. It is a meadow that attracts large animals and waterfowl in the winter because of the heat and available forage. It is common to see large bull elk and giant bull bison grazing side by side in this lush meadow. The visitor with a sharp eye will also be able to identify many shore birds, waterfowl, and scavengers around the edges of the grazing herds. Thermal attractions in this area include: Sapphire Pool, Jewel Geyser, Mustard Spring, Avoca Spring, and Shell Geyser.</p><br>
+                    <h3>Black Sand Basin</h3>
+                    <figure class="container-fluid" style="text-align: center;width=750px; height=550px">
+                        <img src="Images/Madison/Madison6.jpg" alt="Black Sand" width="100%" height="auto"><br>
+                        <figcaption>
+                            <i>Picture 6: Black Sand</i>
+                        </figcaption>
+                    </figure><br>
+                    <p>Derives its name from the concentration of black obsidian (volcanic glass,) sand in the basin. Two large hot springs (Emerald Pool & Rainbow Pool,) are located here. Sunset Lake (a hot spring that behaves like a geyser,) Cliff Geyser, Spouter Geyser, and Opalescent Pool are also located here.</p><br>
+                    <h3>Upper Geyser Basin</h3>
+                    <figure class="container-fluid" style="text-align: center;width=750px; height=550px">
+                        <img src="Images/Madison/Madison7.jpg" alt="Upper Geyser" width="100%" height="auto"><br>
+                        <figcaption>
+                            <i>Picture 7: Upper Geyser</i>
+                        </figcaption>
+                    </figure><br>
+                    <p>The Upper Geyser Basin has the largest concentration of geysers in the world. Most of these geysers can be viewed either during summer or winter. Check with the visitor center for eruption times. Be sure to make time and visit the Old Faithful Inn.</p><br>
+                    <p style="text-align: right; font-size: 80%;"><b>Author: </b> trongnguyenhuy7</p>
+                </div>
+            </div>
+            <aside class="w3-col l3">
+                <iframe width="90%" height="240" 
+                src="https://www.youtube.com/embed/RCYSEDqPv4o" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture" allowfullscreen style="margin-left: 15px; margin-top: 25px;">
+                </iframe>
+                <div class="w3-bar-block w3-margin w3-round w3-pale-yellow">
+                    <a href="#" class="w3-bar-item w3-button w3-light-blue">Tours</a>
+                    <a href="#" class="w3-bar-item w3-button">Yellowstone National Park Tours</a>
+                    <a href="#" class="w3-bar-item w3-button">Canyon Area</a>
+                    <a href="#" class="w3-bar-item w3-button">Fishing Bridge / West Thumb Area</a>
+                    <a href="#" class="w3-bar-item w3-button">Madison to Norris</a>
+                    <a href="#" class="w3-bar-item w3-button">Mammoth Area</a>
+                    <a href="#" class="w3-bar-item w3-button">Tower Roosevelt</a>
+                </div>
+                <div class="w3-bar-block w3-margin w3-round w3-pale-green">
+                    <a href="#" class="w3-bar-item w3-button w3-light-blue">Activities</a>
+                    <a href="#" class="w3-bar-item w3-button">Hiking</a>
+                    <a href="#" class="w3-bar-item w3-button">Skiing</a>
+                    <a href="#" class="w3-bar-item w3-button">Climbing</a>
+                    <a href="#" class="w3-bar-item w3-button">Dining</a>
+                    <a href="#" class="w3-bar-item w3-button">Flyfishing</a>
+                    <a href="#" class="w3-bar-item w3-button">Snowmobiling</a>
+                    <a href="#" class="w3-bar-item w3-button">Camping</a>
+                </div>
+                <div class="w3-bar-block w3-margin w3-round w3-pale-red">
+                    <a href="#" class="w3-bar-item w3-button w3-light-blue">Destinations</a>
+                    <a href="#" class="w3-bar-item w3-button">Yellowstone National Park</a>
+                    <a href="#" class="w3-bar-item w3-button">Great Sand Dunes National Park</a>
+                    <a href="#" class="w3-bar-item w3-button">Waterton Lakes National Park</a>
+                </div>
+                <div class="container-fluid if" style="width=100%; margin: auto;">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=330&height=550&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+            </aside>
+        </main>
+        <footer class="w3-black w3-panel w3-padding-16">
+            <p style="text-align: center;">Powered by: <a href="http://www.yellowstonenationalpark.com/" title="W3.CSS" target="_blank" class="w3-hover-text-green">Yellowstone National Park</a></p>
+        </footer>
+    </body>
+</html>
